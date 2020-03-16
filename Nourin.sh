@@ -873,8 +873,7 @@ declare -rgf 'FloodNumber'
 
 source "${HOME}/Nourin/ShellBot.sh"
 
-init --token '1065868137:AAFqjwxgrz1tumtXbM4fM70kWxBCO9TtCVk'
-
+init --token 941625429:AAFjbXBaKgIAqeFztWjknWGFja85eyj0PsA
 while true; do
 
 	getUpdates --limit '1' --offset "$(OffsetNext)" --timeout '60'
